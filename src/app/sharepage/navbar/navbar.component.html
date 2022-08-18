@@ -1,0 +1,73 @@
+<!-- Menu Start -->
+<nav class="menu-area">
+    <ul class="menu">
+        <li class="menu-item" id="menu-item">
+
+            <!--SAC-->
+            <a href="#sac"><img src="img/sac.png" alt="ícone do sac" id="sac-img"></a>
+             <!--SAC-->
+
+             <!-- PESQUISA -->
+             <img src="img/pesquisa.png" alt="Ícone de pesquisa: lupa" id="pesquisa-img">
+             <input type="search" name="pesquisa" placeholder="Busque aqui" id="pesquisa">
+             <!-- PESQUISA -->
+
+            <!-- CARRINHO -->
+            <a href="#carrinho"><img src="img/carrinho.png" alt="ícone de carrinho de compras" id="car-img"></a>
+            <!-- CARRINHO -->
+
+            <!-- FAVORITOS -->
+            <a href="#favoritos"><img src="img/heart.png" alt="ícone de coração" id="fav-img"></a>
+            <!-- FAVORITOS -->
+
+            <!-- DESTAQUE -->
+            <a href="#destaque" onclick="submenuToggle(0)" class="menu-item" id="destaque" style="right: 0;">Destaques</a>
+            <ul class="menu submenu close">
+                <li class="menu-item submenu">
+                    <a href="/#" class="menu-link">Mais vendidos</a>
+                </li>
+                <li class="menu-item">
+                    <a href="/#" class="menu-link">Promoções</a>
+                </li>
+            </ul>
+            <!-- DESTAQUE -->
+
+            <!-- LOGO -->
+            <img src="img/logo2.png" alt="Logo da Game Mania" id="logo-img">
+            <script>
+            $('#logo-img').fadeOut("2000").fadeIn("2000")
+            </script>
+            <!-- LOGO -->
+
+            <!-- COMPUTADORES -->
+            <a href="#computadores" onclick="submenuToggle(1)" class="menu-item" id="computadores" style="right: 0;">Computadores</a>
+            <ul class="menu submenu close">
+                <li class="menu-item submenu">
+                    <a href="#desktops" class="menu-link">Desktops</a>
+                </li>
+                <li>
+                    <a href="/#notebooks" class="menu-link">Notebooks</a>
+                </li>
+            </ul>
+            <!-- COMPUTADORES -->
+
+            <!-- GAMES -->
+            <a href="#games" id="games">Games</a>
+            <!-- GAMES -->
+
+            <!-- PERFIL -->
+            <a href="#perfil"><img src="img/perfil.png" alt="Ícone do perfil" id="perfil-img"></a>
+            <!-- PERFIL -->
+
+            <!-- LOGIN/CADASTRO -->
+            <span class="menu-link" id="login-cadastro">
+                <a href="login.html" routerLink="login" routerLinkActive="active-link" class="menu-link" style="color: rgb(77, 135, 189); font-weight: bold; ">Login</a>
+                <br>
+                <a href="cadastro.html" routerLink="cadastro" routerLinkActive="active-link"                                                                                                    class="menu-link" style="color: rgb(82, 145, 113); font-weight: bold;">Cadastro</a>
+            </span>
+            <!-- LOGIN/CADASTRO -->
+        
+         </li>
+    </ul>
+</nav>
+<!-- Menu Ends -->

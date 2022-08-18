@@ -1,0 +1,585 @@
+
+    <!-- Menu Start -->
+    <nav class="menu-area">
+        <ul class="menu">
+            <li class="menu-item" id="menu-item">
+
+                <!--SAC-->
+                <a href="#sac"><img src="/assets/img/sac.png" alt="ícone do sac" id="sac-img"></a>
+                 <!--SAC-->
+
+                 <!-- PESQUISA -->
+                 <img src="/assets/img/pesquisa.png" alt="Ícone de pesquisa: lupa" id="pesquisa-img">
+                 <input type="search" name="pesquisa" placeholder="Busque aqui" id="pesquisa">
+                 <!-- PESQUISA -->
+
+                <!-- CARRINHO -->
+                <a href="#carrinho"><img src="/assets/img/carrinho.png" alt="ícone de carrinho de compras" id="car-img"></a>
+                <!-- CARRINHO -->
+
+                <!-- FAVORITOS -->
+                <a href="#favoritos"><img src="/assets/img/heart.png" alt="ícone de coração" id="fav-img"></a>
+                <!-- FAVORITOS -->
+
+                <!-- DESTAQUE -->
+                <a href="#destaque" onclick="submenuToggle(0)" class="menu-item" id="destaque" style="right: 0;">Destaques</a>
+                <ul class="menu submenu close">
+                    <li class="menu-item submenu">
+                        <a href="/#" class="menu-link">Mais vendidos</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="/#" class="menu-link">Promoções</a>
+                    </li>
+                </ul>
+                <!-- DESTAQUE -->
+
+                <!-- LOGO -->
+                <img src="/assets/img/logo2.png" alt="Logo da Game Mania" id="logo-img">
+                <script>
+                $('#logo-img').fadeOut("2000").fadeIn("2000")
+                </script>
+                <!-- LOGO -->
+
+                <!-- COMPUTADORES -->
+                <a href="#computadores" onclick="submenuToggle(1)" class="menu-item" id="computadores" style="right: 0;">Computadores</a>
+                <ul class="menu submenu close">
+                    <li class="menu-item submenu">
+                        <a href="#desktops" class="menu-link">Desktops</a>
+                    </li>
+                    <li>
+                        <a href="/#notebooks" class="menu-link">Notebooks</a>
+                    </li>
+                </ul>
+                <!-- COMPUTADORES -->
+
+                <!-- GAMES -->
+                <a href="#games" id="games">Games</a>
+                <!-- GAMES -->
+
+                <!-- PERFIL -->
+                <a href="#perfil"><img src="/assets/img/perfil.png" alt="Ícone do perfil" id="perfil-img"></a>
+                <!-- PERFIL -->
+
+                <!-- LOGIN/CADASTRO -->
+                <span class="menu-link" id="login-cadastro">
+                    <a href="login.html" routerLink="login" class="menu-link" style="color: rgb(77, 135, 189); font-weight: bold; ">Login</a>
+                    <br>
+                    <a href="cadastro.html" routerLink="cadastro" class="menu-link" style="color: rgb(82, 145, 113); font-weight: bold;">Cadastro</a>
+                </span>
+                <!-- LOGIN/CADASTRO -->
+            
+             </li>
+        </ul>
+    </nav>
+    <!-- Menu Ends -->
+
+    <main>
+        <!-- BANNER -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <picture class="d-block w-100">
+                    <source media="(max-width: 535px)" srcset="/assets/img/banner-s.svg" type="image/">
+                    <source media="(max-width: 900px)" srcset="/assets/img/banner-m.svg" type="image/">
+                    <img src="/assets/img/banner.svg" alt="" id="banner">
+                </picture>
+              </div>
+              <div class="carousel-item">
+                <picture class="d-block w-100">
+                    <source media="(max-width: 900px)" srcset="/assets/img/banner2-m.svg" type="image/">
+                    <img src="/assets/img/banner2.svg" alt="" id="banner">
+                </picture>
+              </div>
+            </div>
+          </div>     
+        <!-- BANNER -->
+
+
+        <!-- SLIDE DE PRODUTOS -->
+        
+        
+            <!----- SLIDE GAMES ----->
+        <h2 class="slide-produtos">O MELHOR DO MUNDO GAMER SE ENCONTRA AQUI!</h2>
+        <section class="produtos-games">   
+
+            <button class="pre-btn container-produtos-item"><img src="/assets/img/arrow_left.svg" alt=""></button>
+
+            <div class="container-produtos">                
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(112, 154, 43, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>    
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(46, 125, 170, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>    
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(159, 66, 53, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(112, 154, 43, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(46, 125, 170, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(159, 66, 53, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(112, 154, 43, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(46, 125, 170, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(159, 66, 53, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(112, 154, 43, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>    
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(46, 125, 170, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>    
+                <div class="card-produtos container-produtos-item">
+                    <div class="img-produtos">
+                        <img src="/assets/img/skyrim-game.png" alt="Capa do jogo skyrim"> 
+                    </div>
+                    <div class="info-produto" 
+                    style="background-color: rgba(159, 66, 53, 0.5);">
+                        <h3 class="nome-produto info-produto-item">NOME JOGO</h3>
+                        <span class="preco info-produto-item">R$0,00</span>
+                        <button class="conferir-btn info-produto-item">CONFERIR</button>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="nxt-btn card-produtos container-produtos-item"><img src="/assets/img/arrow_right.svg" alt=""></button>
+        </section>
+            <!----- FIM SLIDE GAMES ----->
+
+
+            <!----- SLIDE NOTE/PC ----->
+            <section class="produtos-games">
+                <button class="pre-btn container-produtos-item"><img src="/assets/img/arrow_left.svg" alt=""></button>
+
+                <div class="container-produtos">    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                </div>
+                <button class="nxt-btn card-produtos container-produtos-item"><img src="/assets/img/arrow_right.svg" alt=""></button>
+            </section>
+            <!----- FIM SLIDE NOTE/PC ----->
+            
+        <!-- FIM SLIDE DE PRODUTOS -->
+
+
+        <!----- SLIDE DESCONTOS ----->
+        <br><br>
+        
+        <h2 class="slide-descontos">DESCONTOS</h2>
+        <h4 class="titulo-desconto">JOGOS</h4>
+        
+        <section class="descontos">
+            <button class="pre-btn container-produtos-item"><img src="/assets/img/arrow_left.svg" alt=""></button>
+                        
+        <!----- SLIDE DESCONTOS JOGOS ----->
+            <div class="container-produtos container-descontos">
+
+                <div class="card-produtos container-produtos-item">
+
+                    <div class="img-produtos-descontos desconto-jogos">
+                        <img src="/assets/img/celeste-game.png" alt="Capa do jogo Celeste">
+                    </div>
+
+                    <div class="info-produto info-produto-descontos" style="background-color: rgba(112, 154, 43, 0.5);">
+                        <h3 class="nome-produto info-produto-item info-produto-descontos">NOME JOGO</h3>
+                        <span class="preco info-produto-item info-produto-descontos">R$0,00</span>
+                        <button class="conferir-btn info-produto-item info-produto-descontos">CONFERIR</button>
+                    </div>
+                </div>
+                </div>
+                <button class="nxt-btn container-produtos-item"><img src="/assets/img/arrow_right.svg" alt=""></button>
+
+        </section>
+        <!-- FIM SLIDE DESCONTO JOGOS -->
+
+        <!----- SLIDE DESCONTOS NOTE/PC----->
+
+            <h4 class="titulo-desconto titulo-desconto-pc">COMPUTADORES E NOTEBOOKS</h4>
+            <section class="descontos">
+                <button class="pre-btn container-produtos-item"><img src="/assets/img/arrow_left.svg" alt=""></button>
+                <div class="container-produtos">    
+
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa de um desktop"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(46, 125, 170, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/notebook-img.png" alt="Notebook"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(159, 66, 53, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME NOTEBOOK</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                    <div class="card-produtos container-produtos-item">
+                        <div class="img-produtos">
+                            <img src="/assets/img/desktop-img.png" alt="Capa do jogo skyrim"> 
+                        </div>
+                        <div class="info-produto" 
+                        style="background-color: rgba(112, 154, 43, 0.5);">
+                            <h3 class="nome-produto info-produto-item">NOME DESKTOP</h3>
+                            <span class="preco info-produto-item">R$0,00</span>
+                            <button class="conferir-btn info-produto-item">CONFERIR</button>
+                        </div>
+                    </div>
+    
+                </div>
+                <button class="nxt-btn card-produtos container-produtos-item"><img src="/assets/img/arrow_right.svg" alt=""></button>
+            </section>
+
+        <!----- FIM SLIDE DESCONTOS ----->
+
+
+    <!----- BANNER RODAPE ----->
+        <div class="banner-rodape">
+            <picture>
+                <source media="(max-width: 535px)" srcset="/assets/img/banner-rodape-s.svg" type="image/">
+                <source media="(max-width: 900px)" srcset="/assets/img/banner-rodape-m.svg" type="image/">
+                <img src="/assets/img/banner-rodape.svg" alt="banner game mania">
+            </picture>
+        </div>
+    <!----- FIM BANNER RODAPE ----->    
+       
+    <footer>
+        <div class="icons-rodape">
+            <a href="#"><img src="/assets/img/instagram-icon.svg" alt="logo instagram"></a>
+            <a href="" id="icons-rodape-right"><img src="/assets/img/facebook-icon.svg" alt="logo twitter"></a>
+        </div>
+
+        <div class="icons-rodape">
+            <a href="#"><img src="/assets/img/twitter-icon.svg" alt="logo instagram"></a>
+            <a href="#" id="icons-rodape-right"><img src="/assets/img/youtube-icon.svg" alt="logo twitter"></a>
+        </div>
+
+        <div class="info-rodape-1">
+                <p>©GAME MANIA. Todos os direitos reservados.</p>
+        </div>
+
+        <div class="info-rodape-2">
+            <p>Política de Privacidade | Termos Legais  | Acordo de Assinatura do Games Mania | Cookies</p>
+        </div>
+
+        <div class="img-rodape">
+            <img src="/assets/img/game-mania-icon.svg" alt="Logo da game mania" id="logo-game-mania">
+        </div>
+    </footer>
+
+    </main>

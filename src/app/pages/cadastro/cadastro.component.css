@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: black;
+    background-image: url(/assets/img/bakcground-login-cadastro.png);
+}
+
+.cadastro{
+    background-color: rgba(2, 2, 2, 0.74);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.cadastro-visual{
+    padding: 12px;
+    color: rgb(166, 255, 225);
+    font-size: 24px;
+    font-style: normal;
+}
+
+.cadastro-info{
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-info .cadastro-info-box{
+    display: flex;
+    font-weight: bold;
+    margin: -8px;
+}
+
+.cadastro-info .cadastro-info-box input{
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+#text-lnk{
+    text-decoration: none;
+    color: rgb(231, 66, 66);
+}
+
+#text-lnk:hover{
+    color: rgb(161, 224, 248);
+}
+
+#gamemania-team-img{
+    margin-bottom: 22px;
+    margin-left: -5%;
+}
+
+#cadastro-btn{
+    cursor: pointer;
+    background-color: rgba(139, 55, 55, 0.747);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(139, 55, 55, 0.747);
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+}

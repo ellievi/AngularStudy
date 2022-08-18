@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+    font-family: Poppins, sans-serif !important;
+    background-size: auto;  
+}
+
+body{
+    margin-bottom: 1px;
+}
+
+/* MENU */
+
+.menu-item{
+    position: relative; /* posicionamento dos elementos relativos a cada submenu */
+}
+
+.menu-item > .submenu.close {
+    display: none; /* submenu fechado */
+}
+
+.menu-item > .submenu.open {
+    display: flex; /* submenu aberto */
+    position: absolute; /* posiciona o menu aberto abaixo do item de menu relativo a ele */
+}
+
+.menu-area{
+    border-style: solid;
+    height: 11vh;
+    background-color: rgba(197, 221, 235, 1);
+}
+
+/* SUBMENU */
+.submenu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+/* FIM SUBMENU */
+
+
+/* MENU */
+#sac-img{
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    left: 28px;
+    top: 9px;
+}
+
+#pesquisa-img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 120px;
+    top: 24px;
+}
+
+#pesquisa{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    left: 152px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+#car-img{
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    left: 320px;
+    top: 18px;
+}
+
+#fav-img{
+    position: absolute;
+    width: 24px;
+    height: 26px;
+    left: 380px;
+    top: 24px;
+}
+
+#destaque{
+    position: absolute;
+    width: 133px;
+    height: 52px;
+    left: 450px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#computadores{
+    position: absolute;
+    width: 148px;
+    height: 51px;
+    left: 856px;
+    top: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#games{
+    position: absolute;
+    width: 138.41px;
+    height: 51px;
+    left: 1000px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#logo-img{
+    position: absolute;
+    width: 315px;
+    height: auto;
+    left: 500px;
+    top: -3px;
+}
+
+#perfil-img{
+    position: absolute;
+    width: 43px;
+    height: 46px;
+    left: 1100px;
+    top: 12px;
+}
+
+#login-cadastro{
+    position: absolute;
+    width: 104.41px;
+    height: 39px;
+    left: 1180px;
+    top: 10px;
+
+    border-style: solid;
+    padding-bottom: 2.7%;
+    padding-top: 0.2%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.menu-link{
+    color: black;
+}
+/* MENU */
+
+
+main {
+    background-image: url(/assets/img/backgroundPagina.png);
+}
+
+/* BANNER */
+#banner{
+    margin-top: 4%;
+    height: 600px;
+    width: 100%;
+}
+/* BANNER */
+
+/* SLIDE DE PRODUTOS TÍTULO */
+h2{
+    background-color: rgba(46, 125, 170, 0.5);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 2px;
+    width: 800px;
+    margin-left: 20%;
+}
+/* SLIDE DE PRODUTOS TÍTULO */
+
+/* SLIDE DE PRODUTOS */
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4%;
+}
+
+.preco{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container-produtos{
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    flex-direction: row;
+    overflow: hidden;
+}
+.container-descontos{
+    border: none;
+}
+
+.card-produtos{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-produtos{
+    margin-bottom: -2.3%;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.img-produtos img{
+    width:250px;
+    height:150px;
+    position: relative;
+}
+
+.container-produtos-item + .container-produtos-item{
+    margin-left: 12px;
+}
+
+.info-produto{
+    padding: .5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.info-produto-item + .info-produto-item{
+    margin-top: 8px;
+}
+
+.conferir-btn{
+    width: fit-content;
+    align-self: center;
+    padding: 4px;
+}
+
+.nxt-btn , .pre-btn{
+    opacity: 0.2;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nxt-btn:hover , 
+.pre-btn:hover{
+    opacity: 1;
+}
+
+.conferir-btn{
+    border-color: #000000;
+    cursor: pointer;
+    background-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.produtos-games{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.produtos-games::-webkit-scrollbar{
+    display: none;
+}
+
+/* SLIDE DE PRODUTOS */
+
+
+/* SLIDE DE DESCONTOS*/
+
+.descontos{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.descontos::-webkit-scrollbar{
+    display: none;
+}
+
+
+h4{
+    font-family: sans-serif;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo-desconto{
+    margin-top: 2%;
+    margin-left: 32%;
+    text-align: center;
+    width: 35%;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    background-color: rgba(46, 125, 170, 0.5);
+    border-style: solid;
+    border-color: #000000;
+}
+
+.titulo-desconto-pc{
+    margin-left: 32%;
+}
+
+.info-produto-item + .info-produto-descontos{
+    padding: 0.3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.img-produtos-descontos{
+    margin-bottom: -2%;
+    border-style: solid;
+    border-color: #000000;
+}
+/* SLIDE DE DESCONTOS */
+
+/* BANNER RODAPE */
+.banner-rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    cursor: pointer;
+}
+/* BANNER RODAPE */
+
+/* ICONS RODAPE */
+.icons-rodape{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icons-rodape-right{
+    margin-left: 4%;
+}
+/* ICONS RODAPE */
+
+/* RODAPE */
+footer{
+    background-color: white;
+    border-style: solid;
+    padding: 2.3%;
+}
+
+.info-rodape-1{
+    word-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-rodape-2{
+    word-spacing: 2px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-rodape{
+    margin-top: -13%;
+    display: flex;
+    justify-content: flex-end;
+}
+/* RODAPE */

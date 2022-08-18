@@ -1,0 +1,157 @@
+/* MENU */
+
+.menu-item{
+    position: relative; /* posicionamento dos elementos relativos a cada submenu */
+}
+
+.menu-item > .submenu.close {
+    display: none; /* submenu fechado */
+}
+
+.menu-item > .submenu.open {
+    display: flex; /* submenu aberto */
+    position: absolute; /* posiciona o menu aberto abaixo do item de menu relativo a ele */
+}
+
+.menu-area{
+    border-style: solid;
+    height: 11vh;
+    background-color: rgba(197, 221, 235, 1);
+}
+
+/* SUBMENU */
+.submenu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+/* FIM SUBMENU */
+
+
+/* MENU */
+#sac-img{
+    position: absolute;
+    width: 50px;
+    height: 48px;
+    left: 28px;
+    top: 9px;
+}
+
+#pesquisa-img{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    left: 120px;
+    top: 24px;
+}
+
+#pesquisa{
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    left: 152px;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+
+#car-img{
+    position: absolute;
+    width: 31px;
+    height: 36px;
+    left: 320px;
+    top: 18px;
+}
+
+#fav-img{
+    position: absolute;
+    width: 24px;
+    height: 26px;
+    left: 380px;
+    top: 24px;
+}
+
+#destaque{
+    position: absolute;
+    width: 133px;
+    height: 52px;
+    left: 450px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#computadores{
+    position: absolute;
+    width: 148px;
+    height: 51px;
+    left: 856px;
+    top: 22px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#games{
+    position: absolute;
+    width: 138.41px;
+    height: 51px;
+    left: 1000px;
+    top: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+#logo-img{
+    position: absolute;
+    width: 315px;
+    height: auto;
+    left: 500px;
+    top: -3px;
+}
+
+#perfil-img{
+    position: absolute;
+    width: 43px;
+    height: 46px;
+    left: 1100px;
+    top: 12px;
+}
+
+#login-cadastro{
+    position: absolute;
+    width: 104.41px;
+    height: 39px;
+    left: 1180px;
+    top: 10px;
+
+    border-style: solid;
+    padding-bottom: 2.7%;
+    padding-top: 0.2%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.menu-link{
+    color: black;
+}
+/* MENU */

@@ -1,0 +1,26 @@
+<form onsubmit="return submitform(event)">
+    <div class="cadastro"> 
+        <div class="cadastro-visual">
+            <picture>
+                <h1>Se já possui conta, 
+                    <br>
+                    você pode fazer LOGIN 
+                    <br>
+                    clicando <a href="login.html" routerLink="login" id="text-lnk">AQUI</a></h1>
+                <a href="index.html"><img src="/assetsimg/ekko-img.svg" alt=""></a>
+            </picture>
+        </div>
+    
+        <div class="cadastro-info">
+            <picture>
+                <img src="/assetsimg/game-mania-team.svg" alt="" id="gamemania-team-img">
+            </picture>
+            <div class="cadastro-info cadastro-info-box">
+                Nome de usuário<input type="text" name="nome-usuario" placeholder="Digite um nome de usuário" required>
+                Email<input type="email" name="email" placeholder="Digite seu email" required>
+                Senha<input type="password" name="password" placeholder="Digite sua senha" required>
+                <input type="submit" value="CADASTRO" id="cadastro-btn">
+            </div>
+        </div>
+    </div>
+</form>

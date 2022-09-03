@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "email": "elisama@gmail.com",
+      "password": "senhateste",
+      "id": 1
+    },
+    {
+      "email": "vitoria@gmail.com",
+      "password": "senhateste2",
+      "id": 2
+    },
+    {
+      "email": "ellie@gmail.com",
+      "password": "senhateste1234",
+      "id": 3
+    },
+    {
+      "email": "ellie2@gmail.com",
+      "password": "senhateste1234",
+      "id": 4
+    }
+  ]
+}

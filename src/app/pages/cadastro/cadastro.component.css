@@ -3,9 +3,9 @@
     font-family: sans-serif;
 }
 
-body{
+form{
     background-color: black;
-    background-image: url(/assets/img/bakcground-login-cadastro.png);
+    background-image: url(src\assets\img\background-login-cadastro.png);
 }
 
 .cadastro{

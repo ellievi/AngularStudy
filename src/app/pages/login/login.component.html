@@ -1,4 +1,4 @@
-<form form onsubmit="return submitform(event)">
+<form form onsubmit="return submitform(event)" (ngSubmit)="receberDados()">
     <div class="login"> 
         <div class="login-visual">
             <picture>
@@ -16,9 +16,11 @@
                 <img src="/assets/img/game-mania-team.svg" alt="" id="gamemania-team-img">
             </picture>
             <div class="login-info login-info-box">
-                Email<input type="email" name="email" placeholder="Digite seu email" required>
-                Senha<input type="password" name="password" placeholder="Digite sua senha" required>
+                Email<input type="email" name="email" placeholder="Digite seu email" required [(ngModel)]="userModel.email">
+
+                Senha<input type="password" name="password" placeholder="Digite sua senha" required [(ngModel)]="userModel.password">
                 <input type="submit" value="LOGIN" id="login-btn" routerLink="home">
+
                 <p id="forgot-password"><a href="#">Esqueci a senha</a></p>
             </div>
         </div>

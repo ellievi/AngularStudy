@@ -19,6 +19,20 @@ export class LoginComponent implements OnInit {
 
     receberDados() {
       console.log(this.userModel)
+
+      const wordsList: string[] = ["select ", "from ", "drop ", "or ", "having ", "group ", 
+      "by ", "insert ", "exec ", "\"", "\'", "-- ", "# ", "* ", "; "]
+
+      wordsList.forEach(word => {
+        if(this.userModel.email?.toLowerCase().includes(word)){
+          this.mensagem = "Dados inválidos" + word
+
+          return;
+        }
+        
+      });
+
+
       this.loginService.login(this.userModel).subscribe((response) => {
           console.log("Deu certo!")
           localStorage.setItem("nomeUsuario", response.body.user.nome)
